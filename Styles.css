@@ -1,0 +1,31 @@
+body {
+
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 85px;
+	margin-bottom: auto;
+	background: yellow;
+}
+
+input {
+
+	width: 255px;
+	height: 27px;
+	margin-top: 7px;
+}
+
+button {
+
+	height: 35px;
+	width: 65px;
+	border-radius: 12px;
+	border-width: thin;
+	background: black;
+	color: white;
+}
+
+button a {
+
+	text-decoration: none;
+	color: white;
+}
