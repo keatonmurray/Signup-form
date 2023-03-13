@@ -2,18 +2,42 @@
 
 	class Validator {
 
-		private $fields = [];
+		private $fields = array();
 
-		public function __construct($fields = []) {
+		public function __construct (array $fields) {
 
 			$this->fields = $fields;
 		}
 
-		public function validate() {
+		public function name () {
 
-			if (empty($this->fields)) {
+			if (empty($this->fields['name'])) {
 
-				echo "Empty";
+				return "Please enter your name";
+			}
+		}
+
+		public function email () {
+
+			if (empty($this->fields['email'])) {
+
+				return "Please enter your email address";
+			}
+		}
+
+		public function username () {
+
+			if (empty($this->fields['username'])) {
+
+				return "Please enter a username";
+			}
+		}
+
+		public function password () {
+
+			if (empty($this->fields['password'])) {
+
+				return "Please enter a password";
 			}
 		}
 	}
