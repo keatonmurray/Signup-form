@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 
-<?php 
-	include_once "Includes/Validator-object.php";
-?>
-
 <html>
 	<head>
 		<title>Create an account</title>
